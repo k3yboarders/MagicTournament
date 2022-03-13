@@ -100,35 +100,36 @@ public class Quiz : MonoBehaviour
     }
     public void LoadQuestions()
     {
-        questions.Add(new Question("Jakiego rodzaju czarodziejskiej krwi by³ H. Potter?", new string[] { "Pe³nej krwi", "Pó³krwi", "By³ mugolem", "Niewiadomo" }, 1));
-        questions.Add(new Question("Jak nazywa³ siê ojciec Harrego Pottera?", new string[] { "James", "Jacob", "Jason", "Jerry" }, 0));
-        questions.Add(new Question("Jak nazywa³a siê matka Harrego Pottera?", new string[] { "Lily", "Margaret", "Julie", "Jenny" }, 0));
-        questions.Add(new Question("Jak nazywa siê g³ówny wróg Harrego Pottera?", new string[] { "Lord Voldemort", "Lord Jacobson", "Lord Vampire", "Lord McCallister" }, 0));
-        questions.Add(new Question("Do jakiego domu w Hogwarcie nale¿a³ Harry Potter?", new string[] { "Slytherin", "Ravenclaw", "Hufflepuff", "Gryffindor" }, 3));
-        questions.Add(new Question("W jakim wieku Harry dowiedzia³ siê o swoim pochodzeniu?", new string[] { "12 lat", "10 lat", "11 lat", "13 lat" }, 2));
-        questions.Add(new Question("Kim by³ Albus Dumbledore?", new string[] { "Dyrektorem Hogwartu", "Ministrem magii", "Mugolem", "Wêdrownym czarodziejem" }, 0));
-        questions.Add(new Question("Nazwisko rodziny zastêpczej Harrego Pottera to:", new string[] { "Smith", "Dursley", "Walker", "Potter" }, 1));
-        questions.Add(new Question("Co robi zaklêcie Aguamenti?", new string[] { "Wytwarza strumieñ ognia", "Sprawia, ¿e coœ jest niewidzialne", "Tworzy strumieñ wody", "Zamienia w królika" }, 2));
-        questions.Add(new Question("Co czyni eliksir wielosokowy?", new string[] { "Zamienia osobê pij¹c¹ w kogoœ innego", "Daje niewidzialnoœæ", "Leczy rany", "Dodaje energii" }, 0));
-        questions.Add(new Question("Czym jest nieœmia³ek?", new string[] { "Nieœmia³y czarodziej", "Niewielkie stworzenie pilnuj¹ce drzew", "Zaklêcie lecz¹ce nieœmia³oœæ", "Wstydliwe zwierze" }, 1));
-        questions.Add(new Question("Ile pi³ek jest wykorzystywanych w grze Quidditch?", new string[] { "5", "10", "1", "4" }, 3));
-        questions.Add(new Question("Na jakiej pozycji gra³ Harry Potter w Quidditchu?", new string[] { "Obroñca", "Szukaj¹cy", "Pa³karz", "Kapitan" }, 1));
-        questions.Add(new Question("Co powoduje zaklêcia Bombardia?", new string[] { "Ma³¹ eksplozjê", "Du¿o eksplozjê", "Wyczrowanie bomby", "Zamienienie czegoœ w bombê" }, 0));
-        questions.Add(new Question("Czym jest z³oty znicz?", new string[] { "Najwa¿niejszym elementem Quidditcha", "Przedmiotem w centrum Hogwartu", "Ró¿d¿k¹ Harrego", "Nagrod¹ za dobre oceny" }, 0));
-        questions.Add(new Question("Kim jest dementor?", new string[] { "Osoba dementuj¹ca plotki", "Straszny, obrzydliwy demon", "Osoba dementuj¹ca przedmioty", "Sêdzie Quidditcha" }, 1));
-        questions.Add(new Question("Co przydziela Tiara przydzia³u?", new string[] { "Ucznia do pokoju", "Zaklêcie do nauki", "Ró¿d¿kê dla ucznia", "Ucznia do domu" }, 3));
-        questions.Add(new Question("Na czym poruszaj¹ siê zawodnicy Quidditcha?", new string[] { "Na koniach", "Na miot³ach", "Na nogach", "Teleportuj¹ siê" }, 1));
-        questions.Add(new Question("Jaki efekt powoduje zaklêcie Sectumsempra?", new string[] { "Krwotoki w miejscu trafienia.", "Odebranie zdolnoœci mówienia", "Zablokowanie ró¿d¿ki", "Utratê wzroku" }, 0));
-        questions.Add(new Question("Hogwart znajduje siê na terytorium:", new string[] { "Irlandii", "Niemiec", "Wielkiej Brytanii", "Francji" }, 2));
-        questions.Add(new Question("Jak nazywa siê najbardziej znana ulica czarodziejów?", new string[] { "D³uga", "Krótka", "Magiczna", "Pok¹tna" }, 3));
-        questions.Add(new Question("Jaki kolor w³osów ma Hermiona Granger?", new string[] { "Rudy", "Czarny", "Br¹zowy", "Ró¿owy" }, 0));
-        questions.Add(new Question("Do jakiego domu nale¿a³ Draco Malfoy?", new string[] { "Slytherin", "Ravenclaw", "Hufflepuff", "Gryffindor" }, 0));
-        questions.Add(new Question("Jak¹ moc¹ cechowa³ siê Kamieñ Filozoficzny?", new string[] { "Tworzy³ z³oto", "Zmienia³ w ¿abê", "Dawa³ nieskoñczon¹ moc", "Dawa³ niewidzialnoœæ" }, 0));
-        questions.Add(new Question("Jak mia³ na imiê pan Snape?", new string[] { "Seweryn", "Severus", "Simon", "Luke" }, 1));
-        questions.Add(new Question("Jaki pseudonim posiadaj¹ cz³onkowie domu Slytherin?", new string[] { "Puchacze", "Kujony", "Miêœniaki", "Œlizgoni" }, 3));
-        questions.Add(new Question("Kto gra³ Harrego Pottera w serii filmów?", new string[] { "Johnny Depp", "Leonardo DiCaprio", "Daniel Radcliffe", "Brad Pitt" }, 2));
-        questions.Add(new Question("Jak nazywa siê popularna firma produkuj¹ca miot³y sportowe?", new string[] { "Nimbus", "Szajbus", "Sportus", "Dobra miot³a" }, 0));
-        questions.Add(new Question("Harry Potter i wiêzieñ Azkabanu to czêœæ numer:", new string[] { "1", "2", "3", "4" }, 2));
+
+        questions.Add(new Question("Jakiego rodzaju czarodziejskiej krwi byÅ‚ H. Potter?", new string[] { "PeÅ‚nej krwi", "PÃ³Å‚krwi", "ByÅ‚ mugolem", "Nie wiadomo" }, 1));
+        questions.Add(new Question("Jak nazywaÅ‚ siÄ™ ojciec Harrego Pottera?", new string[] { "James", "Jacob", "Jason", "Jerry" }, 0));
+        questions.Add(new Question("Jak nazywaÅ‚a siÄ™ matka Harrego Pottera?", new string[] { "Lily", "Margaret", "Julie", "Jenny" }, 0));
+        questions.Add(new Question("Jak nazywa siÄ™ gÅ‚Ã³wny wrÃ³g Harrego Pottera?", new string[] { "Lord Voldemort", "Lord Jacobson", "Lord Vampire", "Lord McCallister" }, 0));
+        questions.Add(new Question("Do jakiego domu w Hogwarcie naleÅ¼aÅ‚ Harry Potter?", new string[] { "Slytherin", "Ravenclaw", "Hufflepuff", "Gryffindor" }, 3));
+        questions.Add(new Question("W jakim wieku Harry dowiedziaÅ‚ siÄ™ o swoim pochodzeniu?", new string[] { "12 lat", "10 lat", "11 lat", "13 lat" }, 2));
+        questions.Add(new Question("Kim byÅ‚ Albus Dumbledore?", new string[] { "Dyrektorem Hogwartu", "Ministrem magii", "Mugolem", "WÄ™drownym czarodziejem" }, 0));
+        questions.Add(new Question("Nazwisko rodziny zastÄ™pczej Harrego Pottera to:", new string[] { "Smith", "Dursley", "Walker", "Potter" }, 1));
+        questions.Add(new Question("Co robi zaklÄ™cie Aguamenti?", new string[] { "Wytwarza strumieÅ„ ognia", "Sprawia, Å¼e coÅ› jest niewidzialne", "Tworzy strumieÅ„ wody", "Zamienia w krÃ³lika" }, 2));
+        questions.Add(new Question("Co czyni eliksir wielosokowy?", new string[] { "Zamienia osobÄ™ pijÄ…cÄ… w kogoÅ› innego", "Daje niewidzialnoÅ›Ä‡", "Leczy rany", "Dodaje energii" }, 0));
+        questions.Add(new Question("Czym jest nieÅ›miaÅ‚ek?", new string[] { "NieÅ›miaÅ‚y czarodziej", "Niewielkie stworzenie pilnujÄ…ce drzew", "ZaklÄ™cie leczÄ…ce nieÅ›miaÅ‚oÅ›Ä‡", "Wstydliwe zwierzÄ™" }, 1));
+        questions.Add(new Question("Ile piÅ‚ek jest wykorzystywanych w grze Quidditch?", new string[] { "5", "10", "1", "4" }, 3));
+        questions.Add(new Question("Na jakiej pozycji graÅ‚ Harry Potter w Quidditchu?", new string[] { "ObroÅ„ca", "SzukajÄ…cy", "PaÅ‚karz", "Kapitan" }, 1));
+        questions.Add(new Question("Co powoduje zaklÄ™cia Bombardia?", new string[] { "MaÅ‚Ä… eksplozjÄ™", "DuÅ¼o eksplozjÄ™", "Wyczrowanie bomby", "Zamienienie czegoÅ› w bombÄ™" }, 0));
+        questions.Add(new Question("Czym jest zÅ‚oty znicz?", new string[] { "NajwaÅ¼niejszym elementem Quidditcha", "Przedmiotem w centrum Hogwartu", "RÃ³Å¼dÅ¼kÄ… Harrego", "NagrodÄ… za dobre oceny" }, 0));
+        questions.Add(new Question("Kim jest dementor?", new string[] { "Osoba dementujÄ…ca plotki", "Straszny, obrzydliwy demon", "Osoba dementujÄ…ca przedmioty", "SÄ™dziowie Quidditcha" }, 1));
+        questions.Add(new Question("Co przydziela Tiara przydziaÅ‚u?", new string[] { "Ucznia do pokoju", "ZaklÄ™cie do nauki", "RÃ³Å¼dÅ¼kÄ™ dla ucznia", "Ucznia do domu" }, 3));
+        questions.Add(new Question("Na czym poruszajÄ… siÄ™ zawodnicy Quidditcha?", new string[] { "Na koniach", "Na miotÅ‚ach", "Na nogach", "TeleportujÄ… siÄ™" }, 1));
+        questions.Add(new Question("Jaki efekt powoduje zaklÄ™cie Sectumsempra?", new string[] { "Krwotoki w miejscu trafienia.", "Odebranie zdolnoÅ›ci mÃ³wienia", "Zablokowanie rÃ³Å¼dÅ¼ki", "UtratÄ™ wzroku" }, 0));
+        questions.Add(new Question("Hogwart znajduje siÄ™ na terytorium:", new string[] { "Irlandii", "Niemiec", "Wielkiej Brytanii", "Francji" }, 2));
+        questions.Add(new Question("Jak nazywa siÄ™ najbardziej znana ulica czarodziejÃ³w?", new string[] { "DÅ‚uga", "KrÃ³tka", "Magiczna", "PokÄ…tna" }, 3));
+        questions.Add(new Question("Jaki kolor wÅ‚osÃ³w ma Hermiona Granger?", new string[] { "Rudy", "Czarny", "BrÄ…zowy", "RÃ³Å¼owy" }, 0));
+        questions.Add(new Question("Do jakiego domu naleÅ¼aÅ‚ Draco Malfoy?", new string[] { "Slytherin", "Ravenclaw", "Hufflepuff", "Gryffindor" }, 0));
+        questions.Add(new Question("JakÄ… mocÄ… cechowaÅ‚ siÄ™ KamieÅ„ Filozoficzny?", new string[] { "TworzyÅ‚ zÅ‚oto", "ZmieniaÅ‚ w Å¼abÄ™", "DawaÅ‚ nieskoÅ„czonÄ… moc", "DawaÅ‚ niewidzialnoÅ›Ä‡" }, 0));
+        questions.Add(new Question("Jak miaÅ‚ na imiÄ™ pan Snape?", new string[] { "Seweryn", "Severus", "Simon", "Luke" }, 1));
+        questions.Add(new Question("Jaki pseudonim posiadajÄ… czÅ‚onkowie domu Slytherin?", new string[] { "Puchacze", "Kujony", "MiÄ™Å›niaki", "Åšlizgoni" }, 3));
+        questions.Add(new Question("Kto graÅ‚ Harrego Pottera w serii filmÃ³w?", new string[] { "Johnny Depp", "Leonardo DiCaprio", "Daniel Radcliffe", "Brad Pitt" }, 2));
+        questions.Add(new Question("Jak nazywa siÄ™ popularna firma produkujÄ…ca miotÅ‚y sportowe?", new string[] { "Nimbus", "Szajbus", "Sportus", "Dobra miotÅ‚a" }, 0));
+        questions.Add(new Question("Harry Potter i wiÄ™zieÅ„ Azkabanu to czÄ™Å›Ä‡ numer:", new string[] { "1", "2", "3", "4" }, 2));
     }
     void Update()
     {
