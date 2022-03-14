@@ -27,8 +27,16 @@ public class Player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vertical = Input.GetAxisRaw("Vertical");
-        Horizontal = Input.GetAxisRaw("Horizontal");
+        if(this.tag == "Player2")
+        {
+            Vertical = Input.GetAxisRaw("Vertical1");
+            Horizontal = Input.GetAxisRaw("Horizontal1");
+        }
+        else if (this.tag == "Player")
+        {
+            Vertical = Input.GetAxisRaw("Vertical");
+            Horizontal = Input.GetAxisRaw("Horizontal");
+        }
         Vector2 MovementInput = new Vector2(Horizontal, Vertical);
         if (MovementInput.x != 0)
         {

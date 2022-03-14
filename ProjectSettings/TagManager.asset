@@ -8,6 +8,7 @@ TagManager:
   - bramka2
   - score
   - ball
+  - Player2
   layers:
   - Default
   - TransparentFX
