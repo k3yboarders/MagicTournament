@@ -207,12 +207,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole6
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -302,6 +302,7 @@ MonoBehaviour:
   kolejka: 0
   WinPanel: {fileID: 1848046376}
   WinText: {fileID: 804387996}
+  TerazKolej: {fileID: 1438543001}
 --- !u!4 &129369157
 Transform:
   m_ObjectHideFlags: 0
@@ -587,12 +588,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole2
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -719,12 +720,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole3
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -851,12 +852,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole7
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1224,12 +1225,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole1
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1356,7 +1357,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole0
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1929,12 +1930,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole5
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2027,14 +2028,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5eb7932a78d2fe14e8132ae06e819e26, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2136,12 +2137,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole8
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2268,12 +2269,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129369156}
         m_TargetAssemblyTypeName: KManager, Assembly-CSharp
-        m_MethodName: zmienpole4
+        m_MethodName: ChangeField
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
