@@ -30,6 +30,8 @@ public class Quiz : MonoBehaviour
     private Image CorrectAnswerImage;
     [SerializeField]
     private Sprite[] Answers = new Sprite[4];
+
+    
     //Zmienne
     [SerializeField]
     private int[] pytania = new int[10];
